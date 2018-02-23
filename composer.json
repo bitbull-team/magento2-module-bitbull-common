@@ -1,0 +1,23 @@
+{
+    "name": "bitbull/common",
+    "description": "Dogs in your admin area",
+    "require": {
+        "php": "^7.0|^7.1",
+        "magento/magento-composer-installer": "*"
+    },
+    "authors": [
+        {
+            "name": "Lorena Ramonda"
+        }
+    ],
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bitbull\\Common\\": ""
+        }
+    }
+}
