@@ -1,13 +1,22 @@
 {
-    "name": "bitbull/common",
+    "name": "bitbull/common-m2",
     "description": "Dogs in your admin area",
     "require": {
-        "php": "^7.0|^7.1",
+        "php": "^5.6|^7.0|^7.1",
         "magento/magento-composer-installer": "*"
     },
     "authors": [
         {
-            "name": "Lorena Ramonda"
+            "name": "Bitbull",
+            "email": "info@bitbull.it",
+            "homepage": "https://bitbull.it",
+            "role": "Owner"
+        },
+        {
+            "name": "Lorena Ramonda",
+            "email": "lorena.ramonda@bitbull.it",
+            "homepage": "http://lorena.ramonda.me",
+            "role": "Developer"
         }
     ],
     "type": "magento2-module",
